@@ -1,0 +1,43 @@
+.meetup-card {
+  button {
+    border: none;
+    border-radius: 1rem;
+    padding: 0.5rem 0.7rem;
+  }
+
+  .btn-creada-por-mi {
+    color: white;
+    background-color: rgb(47, 0, 255);
+    box-shadow: 0 0 0.7rem rgb(47, 0, 255);
+  }
+
+  .btn-eliminar-meetup {
+    color: red;
+    background-color: rgb(255, 255, 255);
+    font-size: 1.8rem;
+    &:hover {
+      transform: scale(1.2);
+      cursor: pointer;
+    }
+  }
+
+  .btn-participando {
+    color: white;
+    background-color: rgb(255, 0, 0);
+    box-shadow: 0 0 0.7rem red;
+    &:hover {
+      background-color: darken($color: red, $amount: 30);
+      box-shadow: 0 0 1rem black;
+    }
+  }
+
+  .btn-participar {
+    color: black;
+    background-color: rgb(104, 250, 75);
+    box-shadow: 0 0 0.7rem gray;
+    &:hover {
+      background-color: darken($color: rgb(104, 250, 75), $amount: 30);
+      box-shadow: 0 0 1rem darken($color: gray, $amount: 30);
+    }
+  }
+}

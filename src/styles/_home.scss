@@ -1,0 +1,166 @@
+.home-body {
+  background: linear-gradient(white, rgba(0, 0, 0, 0.5));
+  height: 100vh !important;
+  overflow: scroll;
+  overflow-x: hidden !important;
+
+  * {
+    transition: all 0.5s ease;
+  }
+
+  .meetup-invite-body {
+    .col {
+      max-height: 100%;
+    }
+  }
+  .create-meetup-form {
+    width: 100%;
+  }
+
+  .child-component-rendered {
+    .menuOpt {
+      height: 20vh;
+    }
+  }
+  .child-component-not-rendered {
+    .row {
+      height: 90vh !important;
+    }
+    .menuOpt {
+      width: 60rem;
+      height: 40rem;
+    }
+  }
+
+  .meetup-create {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), transparent),
+      url("../assets/img/create-meetup.jpg");
+  }
+  .meetup-list {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), transparent),
+      url("../assets/img/my-meetups.jpg");
+  }
+
+  .card-opt-title {
+    letter-spacing: 1rem !important;
+    font-size: 3rem;
+    text-shadow: 0 0 .7rem white;
+  }
+  .menuOpt {
+    .nav-link {
+      margin: 0;
+      padding: 0;
+    }
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 0 2rem rgba(46, 37, 37, 0.562);
+    width: 40rem;
+    border-radius: 5rem;
+    cursor: pointer;
+
+    &:hover {
+      transform: translate(0, -2rem);
+      box-shadow: 0 0 3rem rgba(0, 0, 0, 1);
+    }
+  }
+  .previsualizar-info-birras{
+    font-size: 3rem;
+  }
+  .form-create-meetup {
+    min-width: 48vh;
+    min-height: 45vh;
+    border-radius: 4rem !important;
+    * {
+      font-size: 1.5rem;
+    }
+
+    .card-title {
+      font-size: 2rem;
+      font-weight: bold;
+      text-decoration: underline;
+      letter-spacing: 0.1rem;
+    }
+
+    .btn-invitar-personas{
+      width: 15rem;
+    }
+
+    form {
+      input,
+      select {
+        margin: 1rem 0;
+      }
+
+      select {
+        background-clip: padding-box;
+        border-radius: 0.8rem !important;
+        color: lighten($color: #000000, $amount: 45);
+        border: 1px solid gray;
+        font-size: 1.5rem;
+        line-height: 1.5;
+        padding: 0.5rem;
+        width: 80% !important;
+      }
+
+      #horas,
+      #minutos {
+        width: 10rem;
+      }
+      button {
+        width: 50%;
+        border-radius: 2rem;
+      }
+    }
+  }
+
+  .lista-meetups {
+    width: 90%;
+    overflow-y: scroll;
+
+    font-size: 1.1rem;
+  }
+  .btn-close-user-list{
+    background-color: red;
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    &:hover{
+      background-color: darken(red, 30);
+    }
+  }
+
+  .lista-users {
+    max-width: 50%;
+    max-height: 70%;
+    margin: 0 auto;
+    overflow-y: scroll;
+    tr {
+      font-size: 1.5rem;
+
+      td {
+        vertical-align: middle;
+      }
+    }
+    th:first-of-type {
+      border-top-left-radius: 10px;
+    }
+    th:last-of-type {
+      border-top-right-radius: 10px;
+    }
+    tr:last-of-type td:first-of-type {
+      border-bottom-left-radius: 10px;
+    }
+    tr:last-of-type td:last-of-type {
+      border-bottom-right-radius: 10px;
+    }
+
+  }
+}
+
+@media (max-width: 700px) {
+  .menuOpt {
+    width: 30rem !important;
+    height: 20rem !important;
+  }
+}

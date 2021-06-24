@@ -1,0 +1,81 @@
+{
+  "navbar": {
+    "online-user": "Online User: ",
+    "home": "Home"
+  },
+  "authPage": {
+    "enter-email": "Enter Email",
+    "enter-name": "Enter Name",
+    "enter-password": "Enter Password",
+    "enter-password2": "Confirm Password",
+    "enter-usertype": "Choose user type",
+    "dont-have-account": "Don't have an account? ",
+    "already-have-account": "Already have an account? ",
+    "sign-in": "Sign In",
+    "sign-up": "Sign Up",
+    "sign-out": "Sign Out",
+    "complete-with-admin": "Fill fields with admin user",
+    "complete-with-user": "Fill fields with common user",
+    "errors": {
+      "valid-email": "You must enter a valid email",
+      "min-length-name": "Name min. length 2 characters",
+      "same-password": "Both passwords must be the same",
+      "min-length-password": "Password min. length 2 characters",
+      "auth/user-not-found": "The user does not exist in Firebase"
+    }
+  },
+  "homePage": {
+    "create-meetup": "Create Meetup",
+    "my-meetups": "Meetups List",
+    "errors": {
+      "invalid-pickedUp-date": "The days difference between today and Meetup date could not be less than 4 days to the future",
+      "wrong-hours": "You have to write an hour between 00 and 23, length 2 characters min.",
+      "wrong-minutes": "You have to write minutos between 00 and 59, length 2 characters min.",
+      "min-length-street": "Street name min. length 2 characters",
+      "min-length-houseNumber": "House number min. length 2 characters",
+      "min-invitations": "You have to invite at least 1 person",
+      "select-address": "You have to select an address"
+    }
+  },
+  "meetupsPage": {
+    "create-meetup-form": "Create Meetup Form",
+    "dateTime-date": "Date",
+    "dateTime-hours": "Hours",
+    "dateTime-minutes": "Minutes",
+    "address-street": "Street Name",
+    "address-number": "House Number",
+    "invitations": "Invite People",
+    "persons-invited": "Guests",
+    "close-guests-table": "Close guest table",
+    "guest-email": "Email",
+    "guest-name": "Name",
+    "guest-invitation": "Invitation",
+    "guest-invite": "Invite",
+    "guest-cancel-invite": "Cancel",
+    "calculate-beers-and-weather": "Calculate Beers and Get Weather",
+    "create-meetup": "Create Meetup",
+    "confirm-validate-neighborhood": "Validate neighborhood",
+    "preview-weather-beers": "Preview: Amount of beer and day temperature",
+    "meetup-weather": "MeetUp Day Temperature: ",
+    "beers-needed": "We will need: ",
+    "degrees": "degrees",
+    "beers": "beers",
+    "boxes": "boxes",
+    "meetupCard-created-by": "Created by",
+    "meetupCard-created-by-me": "Created by Me",
+    "meetupCard-date": "Date: ",
+    "meetupCard-address": "Address: ",
+    "meetupCard-temperature": "Temperature: ",
+    "meetupCard-guests": "Guests: ",
+    "meetupCard-beers": "Beers: ",
+    "meetupCard-boxes": "Boxes: ",
+    "meetupCard-you-are-the-creator": "This was created by me",
+    "meetupCard-cancel-participate": "Cancel Participation",
+    "meetupCard-participate": "Participate",
+
+    "errors": {
+      "not-admin": "You must be admin to create a meetup",
+      "address-not-found": "We could not find your neighborhood, fix your address"
+    }
+  }
+}

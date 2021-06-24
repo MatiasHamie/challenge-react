@@ -1,0 +1,80 @@
+{
+  "navbar": {
+    "online-user": "Usuario Conectado: ",
+    "home": "Inicio"
+  },
+  "authPage": {
+    "enter-email": "Ingrese Email",
+    "enter-name": "Ingrese Nombre",
+    "enter-password": "Ingrese Contraseña",
+    "enter-password2": "Confirme Contraseña",
+    "enter-usertype": "Elegir Tipo Usuario",
+    "dont-have-account": "No tenés una cuenta? ",
+    "already-have-account": "Ya tenés una cuenta? ",
+    "sign-in": "Ingresar",
+    "sign-up": "Registrate",
+    "sign-out": "Salir",
+    "complete-with-admin": "Completar campos con usuario admin",
+    "complete-with-user": "Completar campos con usuario comun",
+    "errors": {
+      "valid-email": "Debe ingresar un email válido",
+      "min-length-name": "Nombre mínimo 2 caracteres",
+      "same-password": "Las claves deben coincidir",
+      "min-length-password": "Clave mínima 6 caracteres",
+      "auth/user-not-found": "El usuario no esta registrado en Firebase"
+    }
+  },
+  "homePage": {
+    "create-meetup": "Crear Meetup",
+    "my-meetups": "Lista de Meetups",
+    "errors": {
+      "invalid-pickedUp-date": "La fecha elegida debe tener como 4 días de diferencia a futuro con el día de hoy",
+      "wrong-hours": "Las horas debe ser entre 00 y 23, con un máximo de 2 números",
+      "wrong-minutes": "Los minutos deben ser entre 00 y 59, con un máximo de 2 números",
+      "min-length-street": "Nombre de calle mínimo 2 letras",
+      "min-length-houseNumber": "Altura de calle mínimo 1 números",
+      "min-invitations": "Debe invitar como mínimo a 1 persona",
+      "select-address": "Debe seleccionar una direccion del menú"
+    }
+  },
+  "meetupsPage":{
+    "create-meetup-form":"Formulario Creación Meetup",
+    "dateTime-hours":"Horas",
+    "dateTime-minutes":"Minutos",
+    "address-street":"Ingrese Calle",
+    "address-number":"Ingrese Altura",
+    "invitations":"Invitar Personas",
+    "persons-invited":"Invitados",
+    "close-guests-table": "Cerrar tabla invitados",
+    "guest-email": "Email",
+    "guest-name": "Nombre",
+    "guest-invitation": "Invitacion",
+    "guest-invite": "Invitar",
+    "guest-cancel-invite": "Cancelar",
+    "calculate-beers-and-weather":"Calcular Birras y Clima",
+    "create-meetup":"Crear Meetup",
+    "confirm-validate-neighborhood": "Validar localidad",
+    "preview-weather-beers": "Previsualizar Birras y Temperatura",
+    "meetup-weather": "Temperatura ese díá: ",
+    "beers-needed": "Necesitaremos: ",
+    "degrees": "Grados",
+    "beers": "Birras",
+    "boxes": "Cajones",
+    "meetupCard-created-by": "Creada por",
+    "meetupCard-created-by-me": "Creada por mi",
+    "meetupCard-date": "Fecha: ",
+    "meetupCard-address": "Dirección: ",
+    "meetupCard-temperature": "Temperatura: ",
+    "meetupCard-guests": "Invitados: ",
+    "meetupCard-beers": "Birras: ",
+    "meetupCard-boxes": "Cajones: ",
+    "meetupCard-you-are-the-creator": "Esto fue creado por mi",
+    "meetupCard-cancel-participate": "Cancelar participacion",
+    "meetupCard-participate": "Participar",
+
+    "errors": {
+      "not-admin": "Debés ser admin para poder crear una meetup",
+      "address-not-found": "No pudimos validar su dirección, intente nuevamente"
+    }
+  }
+}

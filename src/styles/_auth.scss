@@ -1,0 +1,102 @@
+.auth-card {
+  background: rgba($color: #fff, $alpha: 0.8);
+  font-size: 2rem;
+  min-width: 30rem;
+  padding: 1rem;
+  border-radius: 2rem;
+
+  .card-header,
+  .card-footer {
+    border-bottom: none;
+    border-top: none;
+  }
+
+  .card-title {
+    font-size: 2.3rem;
+    font-weight: bold;
+  }
+
+  img {
+    max-width: 12rem;
+  }
+
+  input {
+    font-size: 1.6rem;
+    margin: 2rem 0;
+    border-radius: 1rem;
+    padding: 1rem;
+  }
+
+  button {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    box-shadow: 0 0 0.5rem red;
+    border-radius: 1rem;
+  }
+
+  .btn-completar-form-login {
+    *{
+      transition: all .5s ease;
+    }
+    .test-users {
+      font-size: 1.7rem;
+      font-weight: bold;
+      text-decoration: underline;
+    }
+    button {
+      font-size: 1.4rem;
+      border: none;
+      padding: 0.5rem;
+      border-radius: 1rem;
+    }
+    .btn-admin {
+      background-color: rgba(233, 10, 10, 0.89);
+      color: white;
+      box-shadow: 0 0 0.5rem rgba(233, 10, 10, 0.89);
+      &:hover {
+        background-color: darken(rgba(233, 10, 10, 0.89), $amount: 20);
+        box-shadow: 0 0 0.5rem rgba(249, 255, 252, 0.89);
+      }
+    }
+
+    .btn-user {
+      background-color: rgba(10, 233, 110, 0.89);
+      color: black;
+      box-shadow: 0 0 0.5rem rgba(10, 233, 110, 0.89);
+      &:hover {
+        background-color: darken(rgba(10, 233, 110, 0.89), $amount: 20);
+        color: white;
+        box-shadow: 0 0 0.5rem rgba(249, 255, 252, 0.89);
+      }
+    }
+  }
+
+  .card-footer {
+    font-size: 1.6rem;
+
+    span {
+      text-decoration: underline;
+    }
+  }
+  .language_img {
+    max-width: 4rem;
+    transition: all 0.4s ease;
+
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+
+  select {
+    background-clip: padding-box;
+    border-radius: 0.8rem !important;
+    color: lighten($color: #000000, $amount: 45);
+    font-size: 1.7rem;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0.75rem;
+  }
+}
